@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+  <title>Antools - Awesome tools for Designer & Developer</title>
+  
+  <script type="module" crossorigin src="/antools-vite/assets/index-fac82e35.js"></script>
+  <link rel="stylesheet" href="/antools-vite/assets/index-5f36bb80.css">
+</head>
+
+<body class="body">
+
+  <!-- header/navigation -->
+
+  <header class="main-header">
+    <div class="main-header__wrapper">
+      <nav class="main-header__nav">
+        <a class="main-header__logo logo">
+          <img src="./img/header/logo.svg" width="140" height="38" alt="Antools logo.">
+        </a>
+        <ul class="main-header__list">
+          <li class="main-header__item">
+            <a class="main-header__link main-header__link--current">Home</a>
+          </li>
+          <li class="main-header__item main-header__item--arrow">
+            <a class="main-header__link" href="#">Categories</a>
+          </li>
+          <li class="main-header__item">
+            <a class="main-header__link" href="#">My Collections</a>
+          </li>
+          <li class="main-header__item">
+            <a class="main-header__link" href="#">Blog</a>
+          </li>
+        </ul>
+        <ul class="main-header__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__button" href="#">Login</a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__button button button--orange" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="body__main">
+
+    <!-- hero section -->
+
+    <section class="hero">
+      <div class="hero__wrapper">
+
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1 class="hero__title">Awesome tools for Designer & Developer
+              <span class="hero__title--orange">.</span>
+            </h1>
+            <p class="hero__description">
+              Antools is a web collection of information on paid or free Design and Development tools
+            </p>
+          </div>
+          <div class="hero__search">
+            <h2 class="visually-hidden">Find tools</h2>
+            <form class="hero__form form">
+              <input class="form__input form__input--hero" type="text" name="text" placeholder="find more than 430+ tools...">
+              <input class="form__submit form__submit--hero button button--orange" type="submit" name="submit" value="Search">
+            </form>
+          </div>
+        </div>
+
+        <footer class="hero__footer">
+          <h2 class="visually-hidden">Social network</h2>
+          <ul class="hero__list">
+            <li class="hero__item">
+              <a class="hero__link" href="#">
+                <span class="visually-hidden">Facebook</span>
+                <svg class="hero__social-icon" width="36" height="36" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M18.98 29.75V18.13h3.92l.58-4.54h-4.5v-2.9c0-1.3.36-2.2 2.25-2.2h2.38V4.42a31.64 31.64 0 0 0-3.5-.18c-3.45 0-5.83 2.11-5.83 6v3.33h-3.9v4.55h3.9v11.62h4.7Z"/></svg>
+              </a>
+              </li>
+            <li class="hero__item">
+              <a class="hero__link" href="#">
+                <span class="visually-hidden">Instagram</span>
+                <svg class="hero__social-icon" width="36" height="36" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M18 11.07a6.94 6.94 0 1 0 0 13.87 6.94 6.94 0 0 0 0-13.87Zm0 11.44a4.5 4.5 0 1 1 0-9.02 4.5 4.5 0 0 1 0 9.02ZM25.2 12.43a1.62 1.62 0 1 0 0-3.24 1.62 1.62 0 0 0 0 3.24Z" /><path d="M30.8 9.17a6.9 6.9 0 0 0-3.95-3.95 9.9 9.9 0 0 0-3.28-.63c-1.44-.06-1.9-.08-5.56-.08-3.67 0-4.14 0-5.57.08a9.83 9.83 0 0 0-3.28.63 6.9 6.9 0 0 0-3.94 3.95 9.88 9.88 0 0 0-.63 3.28c-.07 1.44-.09 1.9-.09 5.56 0 3.66 0 4.13.09 5.57a9.9 9.9 0 0 0 .63 3.28 6.91 6.91 0 0 0 3.95 3.94c1.04.41 2.15.64 3.27.68 1.45.06 1.9.08 5.57.08 3.66 0 4.13 0 5.56-.08a9.92 9.92 0 0 0 3.28-.63 6.92 6.92 0 0 0 3.95-3.95c.4-1.05.6-2.16.63-3.28.07-1.44.09-1.9.09-5.56 0-3.67 0-4.13-.09-5.57a9.87 9.87 0 0 0-.63-3.32Zm-1.83 14.3a7.57 7.57 0 0 1-.46 2.53 4.48 4.48 0 0 1-2.57 2.56c-.8.3-1.65.46-2.5.47a91.3 91.3 0 0 1-5.49.08c-3.65 0-4.03 0-5.48-.08a7.44 7.44 0 0 1-2.5-.47A4.48 4.48 0 0 1 7.39 26c-.3-.8-.46-1.65-.47-2.5A93.86 93.86 0 0 1 6.84 18c0-3.65 0-4.03.08-5.48.01-.86.17-1.72.47-2.53a4.48 4.48 0 0 1 2.58-2.57c.8-.3 1.64-.45 2.5-.47 1.43-.06 1.83-.08 5.48-.08 3.66 0 4.03 0 5.48.08.86.01 1.7.17 2.5.47A4.49 4.49 0 0 1 28.52 10c.3.8.45 1.65.46 2.5.07 1.43.08 1.83.08 5.48 0 3.66 0 4.05-.06 5.49h-.02Z" /></svg>
+              </a>
+              </li>
+            <li class="hero__item">
+              <a class="hero__link" href="#">
+                <span class="visually-hidden">Twitter</span>
+                <svg class="hero__social-icon" width="36" height="36" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M29.45 12c.02.26.02.52.02.78 0 7.99-6.08 17.2-17.2 17.2-3.41 0-6.6-1-9.27-2.72a12.1 12.1 0 0 0 8.96-2.5 6.05 6.05 0 0 1-5.65-4.2 6.43 6.43 0 0 0 2.73-.11 6.04 6.04 0 0 1-4.84-5.93v-.07c.8.44 1.74.72 2.73.76a6.03 6.03 0 0 1-1.87-8.08 17.19 17.19 0 0 0 12.46 6.33 6.04 6.04 0 0 1 10.3-5.52c1.35-.27 2.65-.76 3.84-1.46A6.03 6.03 0 0 1 29 9.8a12.1 12.1 0 0 0 3.48-.94A12.97 12.97 0 0 1 29.45 12Z" /></svg>
+              </a>
+              </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <!-- popular tools section -->
+
+    <section class="tools">
+      <div class="tools__wrapper">
+        <h2 class="tools__title">Most Popular Tools</h2>
+        <p class="tools__text">Tools for the best Designers and Developers<br>most popularly used in the world</p>
+
+        <ul class="tools__list">
+
+          <!-- #1 card Figma -->
+          <li class="tools__item card">
+            <div class="card__head">
+              <img class="card__logo" src="./img/tools/figma-logo.svg" width="65" height="64" alt="Figma logo.">
+              <h3 class="card__title">FIGMA</h3>
+              <span class="card__availability">Free</span>
+            </div>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card__footer">
+              <ul class="card__list">
+                <li class="card__item">
+                  <button class="card__btn card__btn--like" type="button">
+                    <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                  </button>
+                </li>
+                <li class="card__item">
+                  <button class="card__btn card__btn--folder" type="button">
+                    <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                  </button>
+                </li>
+              </ul>
+              <a class="card__button button" href="#">
+                Visit
+              </a>
+            </div>
+          </li>
+
+          <!-- #2 card Sketch -->
+          <li class="tools__item card card--current">
+            <div class="card__head">
+              <img class="card__logo" src="./img/tools/sketch-logo.svg" width="65" height="64" alt="Sketch logo.">
+              <h3 class="card__title">Sketch</h3>
+              <span class="card__availability">Trial & Paid</span>
+            </div>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card__footer">
+              <ul class="card__list">
+                <li class="card__item">
+                  <button class="card__btn card__btn--like card__btn--current" type="button">
+                    <svg class="card__icon card__icon--current" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                  </button>
+                </li>
+                <li class="card__item">
+                  <button class="card__btn card__btn--folder" type="button">
+                    <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                  </button>
+                </li>
+              </ul>
+              <a class="card__button button button--orange" href="#">
+                Visit
+              </a>
+            </div>
+          </li>
+
+          <!-- #3 card VS Code -->
+          <li class="tools__item card">
+            <div class="card__head">
+              <img class="card__logo" src="./img/tools/vs-code-logo.svg" width="65" height="64" alt="Visual studio code logo.">
+              <h3 class="card__title">Visual Studio Code</h3>
+              <span class="card__availability">Free</span>
+            </div>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card__footer">
+              <ul class="card__list">
+                <li class="card__item">
+                  <button class="card__btn card__btn--like" type="button">
+                    <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                  </button>
+                </li>
+                <li class="card__item">
+                  <button class="card__btn card__btn--folder" type="button">
+                    <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                  </button>
+                </li>
+              </ul>
+              <a class="card__button button" href="#">
+                Visit
+              </a>
+            </div>
+          </li>
+
+          <!-- #4 card Notion -->
+          <li class="tools__item card">
+            <div class="card__head">
+              <img class="card__logo" src="./img/tools/notion-logo.svg" width="65" height="64" alt="Notion logo.">
+              <h3 class="card__title">Notion</h3>
+              <span class="card__availability">Free & Paid</span>
+            </div>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card__footer">
+              <ul class="card__list">
+                <li class="card__item">
+                  <button class="card__btn card__btn--like" type="button">
+                    <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                  </button>
+                </li>
+                <li class="card__item">
+                  <button class="card__btn card__btn--folder" type="button">
+                    <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                  </button>
+                </li>
+              </ul>
+              <a class="card__button button" href="#">
+                Visit
+              </a>
+            </div>
+          </li>
+
+          <!-- #5 card Slack -->
+          <li class="tools__item card">
+            <div class="card__head">
+              <img class="card__logo" src="./img/tools/slack-logo.svg" width="65" height="64" alt="Slack logo.">
+              <h3 class="card__title">Slack</h3>
+              <span class="card__availability">Free & Paid</span>
+            </div>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card__footer">
+              <ul class="card__list">
+                <li class="card__item">
+                  <button class="card__btn card__btn--like" type="button">
+                    <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                  </button>
+                </li>
+                <li class="card__item">
+                  <button class="card__btn card__btn--folder" type="button">
+                    <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                  </button>
+                </li>
+              </ul>
+              <a class="card__button button" href="#">
+                Visit
+              </a>
+            </div>
+          </li>
+
+          <!-- #6 card Invision -->
+          <li class="tools__item card">
+            <div class="card__head">
+              <img class="card__logo" src="./img/tools/invision-logo.svg" width="65" height="64" alt="Invision logo.">
+              <h3 class="card__title">Invision</h3>
+              <span class="card__availability">Free & Paid</span>
+            </div>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card__footer">
+              <ul class="card__list">
+                <li class="card__item">
+                  <button class="card__btn card__btn--like" type="button">
+                    <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                  </button>
+                </li>
+                <li class="card__item">
+                  <button class="card__btn card__btn--folder" type="button">
+                    <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                  </button>
+                </li>
+              </ul>
+              <a class="card__button button" href="#">
+                Visit
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <a class="tools__button" href="#">
+          Load more
+        </a>
+      </div>
+    </section>
+
+    <!-- brands section -->
+
+    <section class="brands">
+      <div class="brands__wrapper">
+        <div class="brands__block">
+          <h3 class="brands__title">Trusted more than 150+ brand</h3>
+          <ul class="brands__list">
+            <li class="brands__item">
+              <img class="brands__logo" src="./img/brands/microsoft-logo.svg" width="193" height="42" alt="Microsoft logo.">
+            </li>
+            <li class="brands__item">
+              <img class="brands__logo" src="./img/brands/google-logo.svg" width="157" height="51" alt="Google logo.">
+            </li>
+            <li class="brands__item">
+              <img class="brands__logo" src="./img/brands/slack-logo.svg" width="194" height="49" alt="Slack logo.">
+            </li>
+            <li class="brands__item">
+              <img class="brands__logo" src="./img/brands/wordpress-logo.svg" width="194" height="44" alt="Wordpress logo.">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- newcomer tools section -->
+
+    <section class="newtools">
+      <div class="newtools__wrapper">
+        <div class="newtools__description">
+          <h2 class="newtools__title ">Newcomer Tools</h2>
+          <p class="newtools__text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+          <a class="newtools__button button button--orange">
+            Explore more
+          </a>
+        </div>
+        <div class="newtools__cards">
+          <ul class="newtools__list">
+
+            <!-- #1 card Zepelin -->
+            <li class="newtools__item card">
+              <div class="card__head">
+                <img class="card__logo" src="./img/newtools/zeplin-logo.svg" width="64" height="64" alt="Zepelin logo.">
+                <h3 class="card__title">Zeplin</h3>
+                <span class="card__availability">Free & Paid</span>
+              </div>
+              <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card__footer">
+                <ul class="card__list">
+                  <li class="card__item">
+                    <button class="card__btn card__btn--like" type="button">
+                      <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                    </button>
+                  </li>
+                  <li class="card__item">
+                    <button class="card__btn card__btn--folder" type="button">
+                      <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                    </button>
+                  </li>
+                </ul>
+                <a class="card__button button" href="#">
+                  Visit
+                </a>
+              </div>
+            </li>
+
+            <!-- #2 card PHPStorm -->
+            <li class="newtools__item card card--current">
+              <div class="card__head">
+                <img class="card__logo" src="./img/newtools/procreate-logo.svg" width="64" height="64" alt="PHPStorm logo.">
+                <h3 class="card__title">PHPStorm</h3>
+                <span class="card__availability">Free</span>
+              </div>
+              <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card__footer">
+                <ul class="card__list">
+                  <li class="card__item">
+                    <button class="card__btn card__btn--like" type="button">
+                      <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                    </button>
+                  </li>
+                  <li class="card__item">
+                    <button class="card__btn card__btn--folder" type="button">
+                      <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                    </button>
+                  </li>
+                </ul>
+                <a class="card__button button button--orange" href="#">
+                  Visit
+                </a>
+              </div>
+            </li>
+
+            <!-- #3 card Toolbox -->
+            <li class="newtools__item card">
+              <div class="card__head">
+                <img class="card__logo" src="./img/newtools/toolbox-logo.svg" width="64" height="64" alt="Toolbox logo.">
+                <h3 class="card__title">Toolbox</h3>
+                <span class="card__availability">Free</span>
+              </div>
+              <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card__footer">
+                <ul class="card__list">
+                  <li class="card__item">
+                    <button class="card__btn card__btn--like" type="button">
+                      <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                    </button>
+                  </li>
+                  <li class="card__item">
+                    <button class="card__btn card__btn--folder" type="button">
+                      <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                    </button>
+                  </li>
+                </ul>
+                <a class="card__button button" href="#">
+                  Visit
+                </a>
+              </div>
+            </li>
+
+            <!-- #4 card Procreate -->
+            <li class="newtools__item card">
+              <div class="card__head">
+                <img class="card__logo" src="./img/newtools/procreate-logo.svg" width="64" height="64" alt="Procreate logo.">
+                <h3 class="card__title">Procreate</h3>
+                <span class="card__availability">Paid</span>
+              </div>
+              <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card__footer">
+                <ul class="card__list">
+                  <li class="card__item">
+                    <button class="card__btn card__btn--like" type="button">
+                      <svg class="card__icon" width="28" height="28" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.833 5.25c-2.45 0-4.608 1.225-5.833 3.15-1.225-1.925-3.383-3.15-5.833-3.15-3.85 0-7 3.15-7 7 0 6.942 12.833 14 12.833 14s12.833-7 12.833-14c0-3.85-3.15-7-7-7Z" /></svg>
+                    </button>
+                  </li>
+                  <li class="card__item">
+                    <button class="card__btn card__btn--folder" type="button">
+                      <svg class="card__icon" width="30" height="30" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 16.25h-1.25V15a1.25 1.25 0 0 0-2.5 0v1.25H12.5a1.25 1.25 0 0 0 0 2.5h1.25V20a1.25 1.25 0 0 0 2.5 0v-1.25h1.25a1.25 1.25 0 0 0 0-2.5Z" /><path d="M24.38 8.81h-8.75l-3.3-3.97a1.25 1.25 0 0 0-.96-.47H5.63A3.09 3.09 0 0 0 2.5 7.41V22.6a3.09 3.09 0 0 0 3.13 3.04h18.75a3.09 3.09 0 0 0 3.12-3.04V11.85a3.09 3.09 0 0 0-3.13-3.04ZM25 22.56a.57.57 0 0 1-.63.54H5.63a.58.58 0 0 1-.62-.54V7.41a.58.58 0 0 1 .63-.54h5.16l3.25 3.98a1.25 1.25 0 0 0 .96.46h9.38a.58.58 0 0 1 .62.54v10.71Z" /></svg>
+                    </button>
+                  </li>
+                </ul>
+                <a class="card__button button" href="#">
+                  Visit
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- teams section -->
+
+    <section class="teams">
+      <h2 class="visually-hidden">Our employees.</h2>
+      <div class="teams__wrapper">
+        <button class="teams__button teams__button--prev"></button>
+        <button class="teams__button teams__button--next"></button>
+        <div class="teams__employee">
+          <img class="teams__photo" src="./img/teams/Ronald-Richards.png" width="399" height="492" alt="Employee photo.">
+          <div class="teams__about">
+            <cite class="teams__name">Ronald Richards</cite>
+            <span class="teams__job-title">Product Manager</span>
+          </div>
+        </div>
+        <blockquote class="teams__quote">
+          Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. 
+          Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia 
+          incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. 
+          Occaecat aute officia excepteur non laboris id qui ad.
+        </blockquote>
+        </div>
+        <ol class="teams__slider">
+          <li class="teams__indicator"></li>
+          <li class="teams__indicator teams__indicator--current"></li>
+          <li class="teams__indicator"></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- subscribe section -->
+
+    <section class="subscribe">
+      <div class="subscribe__wrapper">
+        <div class="subscribe__head">
+          <h2 class="subscribe__title">Become a contributor?</h2>
+          <p class="subscribe__text">Join us and get tips & tricks to become a great Designer and Developer</p>
+        </div>
+        <form class="subscribe__form form">
+          <input class="form__input form__input--subscribe" type="email" name="e-mail" placeholder="Enter your email...">
+          <input class="form__submit form__submit--subscribe button button--orange" type="submit" name="submit" value="Join Us">
+        </form>
+      </div>
+    </section>
+
+    <!-- main footer -->
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__made">
+          <a class="footer__logo logo" href="#">
+            <img src="./img/header/logo.svg" width="140" height="38" alt="Antools logo.">
+          </a>
+          <h2 class="footer__copyright">Copyright 2021. Antools</h2>
+          <p class="footer__about">Antool is a web collection of information on paid or free Design and Development tools</p>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item info">
+            <h3 class="info__title">Contact Us</h3>
+            <ul class="info__list">
+              <li class="info__item">
+                <a class="info__link" href="tel:+621987463">+621987463</a>
+              </li>
+              <li class="info__item">M Building, No.10 A</li>
+              <li class="info__item">
+                <a class="info__link" href="malito:antools@awesome.com">antools@awesome.com</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item info">
+            <h3 class="info__title">Categories</h3>
+            <ul class="info__list">
+              <li class="info__item">
+                <a class="info__link" href="#">Design</a>
+              </li>
+              <li class="info__item">
+                <a class="info__link" href="#">Development</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item info">
+            <h3 class="info__title">Company Info</h3>
+            <ul class="info__list">
+              <li class="info__item">
+                <a class="info__link" href="#">About Us</a>
+              </li>
+              <li class="info__item">
+                <a class="info__link" href="#">Our Partners</a>
+              </li>
+              <li class="info__item">
+                <a class="info__link" href="#">Blog</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
