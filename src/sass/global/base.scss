@@ -1,0 +1,23 @@
+html {
+  width: 100%;
+}
+
+.body {
+  font-family: "Poppins", "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: $white;
+  background-color: $main-color;
+  max-width: 1440px;
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.body__main {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}

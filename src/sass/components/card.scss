@@ -1,0 +1,146 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 33px;
+  border-radius: 15px;
+  overflow: hidden;
+
+  &--current {
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(40, 48, 54, 0.6);
+    background: 
+      linear-gradient(
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.02),
+        rgba(255, 255, 255, 0.02));
+
+    &:not(.newtools__item)::before {
+      position: absolute;
+      content: "";
+      width: 65px;
+      height: 65px;
+      top: -6px;
+      right: 16px;
+      background: rgba(255, 110, 48, 0.6);
+      border-radius: 50%;
+      filter: blur(45px);
+    }
+
+    &:not(.tools__item)::before {
+      position: absolute;
+      content: "";
+      width: 65px;
+      height: 65px;
+      top: -17px;
+      right: -9px;
+      background: rgba(255, 110, 48, 0.6);
+      border-radius: 50%;
+      filter: blur(45px);
+    }
+  }
+}
+
+.card__head {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__logo {
+  position: absolute;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 94px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.card__availability {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 94px;
+  color: rgba(255, 165, 55, 0.55);
+}
+
+.card__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.card__list {
+  @include list-reset;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card__button {
+  padding-top: 9px;
+  padding-right: 35px;
+  padding-bottom: 9px;
+  padding-left: 35px;
+  color: rgba(255, 255, 255, 0.7);
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.card__btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  min-width: 42px;
+  min-height: 42px;
+  color: rgba(255, 255, 255, 0.38);
+  cursor: pointer;
+  border-radius: 8px;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  &--current {
+    background-color: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    color: #FD3B41;
+
+    &:hover {
+      color: rgba(253, 59, 65, 0.8);
+    }
+
+    &:active {
+      color: rgba(253, 59, 65, 0.6);
+    }
+  }
+}
+
+.card__btn--folder {
+  padding-top: 8px;
+}

@@ -1,0 +1,32 @@
+.newtools__wrapper {
+  display: grid;
+  grid-template-columns: 35% 49%;
+  column-gap: 197px;
+  margin-right: 108px;
+  margin-left: 108px;
+  padding-top: 20px;
+}
+
+.newtools__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.newtools__text {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.newtools__list {
+  @include list-reset;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 50px;
+}

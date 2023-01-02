@@ -1,0 +1,125 @@
+.teams__wrapper {
+  position: relative;
+  margin-right: 108px;
+  margin-left: 108px;
+  padding-right: 148px;
+  padding-left: 187px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams__quote {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.78);
+  padding-top: 128px;
+  padding-left: 57px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  background-image: url("../img/teams/quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 80px;
+}
+
+.teams__employee {
+  position: relative;
+}
+
+.teams__about {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 8px;
+  width: fit-content;
+  background-color: rgba(40, 48, 54, 0.2);
+  padding-top: 10px;
+  padding-right: 22px;
+  padding-bottom: 16px;
+  padding-left: 23px;
+  right: 0;
+  bottom: 29px;
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(40, 48, 54, 0.2);
+}
+
+.teams__name {
+  font-style: normal;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 253, 253, 0.78);
+}
+
+.teams__job-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 253, 253, 0.55);
+  
+}
+
+.teams__button {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  background-color: #1E252B;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 196px;
+  
+  &--prev {
+    background-image: url("../img/teams/arrow-left.svg");
+    left: 0;
+
+    &:hover {
+      background-image: url("../img/teams/arrow-orange-left.svg");
+    }
+
+  }
+
+  &--next {
+    background-image: url("../img/teams/arrow-right.svg");
+    top: 196px;
+    right: 0;
+
+    &:hover {
+      background-image: url("../img/teams/arrow-orange-right.svg");
+    }
+  }
+
+  &:active {
+    box-shadow: 0px 5px 10px -3px #000000;
+  }
+}
+
+.teams__slider {
+  @include list-reset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 100px;
+}
+
+.teams__indicator {
+  flex: 0 1 auto;
+  box-sizing: content-box;
+  width: 44px;
+  height: 6px;
+  background-color: #283036;
+  background-clip: padding-box;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &--current {
+    background-color: $second-color;
+    height: 8px;
+  }
+}

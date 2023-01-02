@@ -1,0 +1,38 @@
+.form {
+  position: relative;
+  display: flex;
+}
+
+.form__input {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.38);
+  width: 100%;
+  background-color: #283036;
+  border-radius: 15px;
+  border: none;
+  padding-top: 21px;
+  padding-bottom: 22px;
+
+  &--hero {
+    background-image: url("../img/hero/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: left 18px center;
+    padding-left: 55px;
+  }
+
+  &--subscribe {
+    padding-left: 24px;
+  }
+}
+
+.form__submit {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  padding-right: 36px;
+  padding-left: 36px;
+}
